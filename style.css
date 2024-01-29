@@ -1,0 +1,79 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+   
+}
+
+/************************************utility classes**************************************/
+.border{
+    border: 2px solid rgb(136, 17, 17);
+    margin: 2px ;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #1a1919;
+}
+.rounded{
+    border-radius: 10px
+}
+.m1{
+    margin: 5px;
+}
+.p1{
+    padding: 10px;
+}
+
+
+
+/************************************upper section *************************************/
+.left{
+    width: 25vw;
+    
+}
+.right{
+    width: 75vw;
+}
+
+.home{
+    padding: 10px;
+}
+
+.home ul li{
+    display: flex;
+    gap: 15px;
+    width: 14px;
+    list-style: none;
+    padding-top: 15px;
+}
+
+.library li{
+    list-style: none;
+    width: 25px;
+    display: flex;
+    gap: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
